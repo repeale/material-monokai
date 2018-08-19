@@ -1,0 +1,28 @@
+{
+    "name": "material-monokai",
+    "displayName": "Material Monokai Theme",
+    "description": "Material Monokai Theme",
+    "author": "Alessio Enrico Repetti",
+    "version": "0.0.1",
+    "publisher": "repeale",
+    "icon": "logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/repeale/material-monokai.git"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Monokai High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Monokai-High-Contrast-color-theme.json"
+            }
+        ]
+    }
+}
