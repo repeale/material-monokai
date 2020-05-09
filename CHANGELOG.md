@@ -1,3 +1,7 @@
+### Version 0.1.1 (May 9, 2020)
+
+-   Marketplace galleryBanner color
+
 ### Version 0.1.0 (May 9, 2020)
 
 -   Terminal Monokai theme
