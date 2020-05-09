@@ -3,7 +3,7 @@
     "displayName": "Material Monokai Theme",
     "description": "Material Monokai Theme",
     "author": "Alessio Enrico Repetti",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "repeale",
     "icon": "logo.png",
     "repository": {
@@ -11,7 +11,10 @@
         "url": "https://github.com/repeale/material-monokai.git"
     },
     "engines": {
-        "vscode": "^1.26.0"
+        "vscode": "^1.45.0"
+    },
+    "galleryBanner": {
+        "theme": "dark"
     },
     "categories": [
         "Themes"
@@ -24,5 +27,18 @@
                 "path": "./themes/Material-Monokai-High-Contrast-color-theme.json"
             }
         ]
+    },
+    "keywords": [
+        "material theme",
+        "monokai",
+        "high contrast"
+    ],
+    "scripts": {
+        "start": "nodemon --exec vsce package",
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.3"
     }
 }
