@@ -1,3 +1,7 @@
+# v1.0.1
+
+- Dependencies upgrade
+
 # v1.0.0
 
 - Minor theme fixes and prettier config improvement
