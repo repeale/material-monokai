@@ -1,45 +1,51 @@
 {
-    "name": "material-monokai",
-    "displayName": "Material Monokai Theme",
-    "description": "Material Monokai Theme",
-    "author": "Alessio Enrico Repetti",
-    "version": "0.1.1",
-    "publisher": "repeale",
-    "icon": "logo.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/repeale/material-monokai.git"
-    },
-    "engines": {
-        "vscode": "^1.45.0"
-    },
-    "galleryBanner": {
-        "color": "#292929",
-        "theme": "dark"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Material Monokai High Contrast",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Material-Monokai-High-Contrast-color-theme.json"
-            }
-        ]
-    },
-    "keywords": [
-        "material theme",
-        "monokai",
-        "high contrast"
-    ],
-    "scripts": {
-        "start": "nodemon --exec vsce package",
-        "package": "vsce package",
-        "publish": "vsce publish"
-    },
-    "devDependencies": {
-        "nodemon": "2.0.3"
-    }
+  "name": "material-monokai",
+  "displayName": "Material Monokai Theme",
+  "description": "Material Monokai Theme",
+  "author": "Alessio Enrico Repetti <repeale@gmail.com>",
+  "version": "1.0.0",
+  "publisher": "repeale",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repeale/material-monokai.git"
+  },
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "galleryBanner": {
+    "color": "#292929",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Monokai High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Monokai-High-Contrast-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "material theme",
+    "monokai",
+    "high contrast"
+  ],
+  "prettier": "@repeale/prettier-config",
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  },
+  "dependencies": {
+    "@repeale/prettier-config": "1.0.4",
+    "prettier": "2.3.2",
+    "save": "2.4.0"
+  }
 }

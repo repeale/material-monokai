@@ -1,13 +1,17 @@
-### Version 0.1.1 (May 9, 2020)
+# v1.0.0
 
--   Marketplace galleryBanner color
+- Minor theme fixes and prettier config improvement
 
-### Version 0.1.0 (May 9, 2020)
+# v0.1.1
 
--   Terminal Monokai theme
--   Theme general update
--   Improved README.md with screenshots
+- Marketplace galleryBanner color
 
-### Version 0.0.1 (Aug 19, 2018)
+# v0.1.0
 
--   Initial release
+- Terminal Monokai theme
+- Theme general update
+- Improved README.md with screenshots
+
+# v0.0.1
+
+- Initial release
