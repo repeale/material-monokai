@@ -1,3 +1,7 @@
+# v1.1.0
+
+- Improved selection background and matching brackets
+
 # v1.0.1
 
 - Dependencies upgrade

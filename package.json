@@ -3,7 +3,7 @@
   "displayName": "Material Monokai Theme",
   "description": "Material Monokai Theme",
   "author": "Alessio Enrico Repetti <repeale@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "repeale",
   "icon": "logo.png",
   "repository": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/repeale/material-monokai.git"
   },
   "engines": {
-    "vscode": "^1.45.0"
+    "vscode": "^1.60.1"
   },
   "galleryBanner": {
     "color": "#292929",
