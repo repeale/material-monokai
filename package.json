@@ -3,7 +3,7 @@
   "displayName": "Material Monokai Theme",
   "description": "Material Monokai Theme",
   "author": "Alessio Enrico Repetti <repeale@gmail.com>",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "repeale",
   "icon": "logo.png",
   "repository": {
@@ -34,16 +34,15 @@
     "monokai",
     "high contrast"
   ],
-  "prettier": "@repeale/prettier-config",
   "scripts": {
     "start": "nodemon --exec vsce package",
     "package": "vsce package",
     "publish": "vsce publish"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@repeale/prettier-config": "1.0.4",
-    "nodemon": "2.0.12",
-    "prettier": "2.4.0"
-  },
-  "dependencies": {}
+    "@repeale/prettier-config": "1.0.7",
+    "nodemon": "2.0.15",
+    "prettier": "2.5.1"
+  }
 }

@@ -1,3 +1,7 @@
+# v1.1.1
+
+- Improved line number color and highlight
+
 # v1.1.0
 
 - Improved selection background and matching brackets
